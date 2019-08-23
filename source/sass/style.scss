@@ -2,3 +2,12 @@
 @import "blocks/normalize.scss";
 @import "blocks/fullpage.scss";
 @import "blocks/one-section.scss";
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/montserrat/Montserrat.ttf") format("ttf"), url("fonts/montserrat/Montserrat.eot") format("eot"), url("fonts/montserrat/Montserrat.woff") format("woff"), url("fonts/montserrat/Montserrat.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal; }
+  

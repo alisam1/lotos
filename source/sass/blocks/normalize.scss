@@ -9,11 +9,22 @@
   button:focus {
   outline: none;
   }
+
   
   html {
       line-height: 1.15; /* 1 */
       -webkit-text-size-adjust: 100%; /* 2 */
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 400; /*эту строчку можно пропустить*/
     }
+
+     /*Правило только для Firefox*/
+  @-moz-document url-prefix() {
+    body {
+      font-weight: lighter !important;
+    }
+  }
     
     body {
       margin: 0;
